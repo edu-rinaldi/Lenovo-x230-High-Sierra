@@ -1,0 +1,35 @@
+
+Clover EFI installer log - Mon Feb 19 18:44:55 CET 2018
+Installer version: v2.4k r4411 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *320.1 GB   disk0
+   1:                        EFI NO NAME                 536.9 MB   disk0s1
+   2:           Linux Filesystem                         149.1 GB   disk0s2
+   3:          Apple_CoreStorage High Sierra             163.5 GB   disk0s3
+   4:                 Apple_Boot Recovery HD             650.0 MB   disk0s4
+   5:                 Linux Swap                         6.3 GB     disk0s5
+
+/dev/disk1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS High Sierra            +163.1 GB   disk1
+                                 Logical Volume on disk0s3
+                                 FCE479C6-86DE-468A-A290-E097C2B0A5C6
+                                 Unencrypted
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/High Sierra/EFIROOTDIR/EFI folder to /Volumes/High Sierra/EFI-Backups/r4243/2018-02-19-18h44/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
